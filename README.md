@@ -3,11 +3,16 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: "Naked Twins" heuristic helps us to reduce search space by applying idea similar to combined
+   "only_choise" and "eliminate" strategies. The same effect as with "Naked Twins" could be achieved
+   by doing one step of depth-search on one of twins elements and then doing elimination two times.
+   "Naked Twins" helps to avoid depth-search in this case by doing elimination not for fixed element in a unit,
+   but for a fixed pair in a unit.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: We solve diagonal sudoku problem by adding 2 more constraints. As a result for some of boxes
+   list of peers is extended and thus increased number of constraints.
 
 ### Install
 
